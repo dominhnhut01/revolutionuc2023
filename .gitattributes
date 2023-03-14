@@ -1,0 +1,6 @@
+backend/static/* linguist-vendored
+*.scss linguist-detectable=false
+*.css linguist-detectable=false
+*.less linguist-detectable=false
+*.js linguist-detectable=true
+*.py linguist-detectable=true

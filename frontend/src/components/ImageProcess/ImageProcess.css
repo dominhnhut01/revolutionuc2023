@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.webcam-title {
+    width: 100%;
+    display: block;
+    font-family: Montserrat-SemiBold;
+    font-size: 39px;
+    color: white;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+.webcam-container {
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(25, 69, 209, 80%),rgba(25, 69, 209, 80%)), url(http://s3.amazonaws.com/img.mynetdiary.com/blog/calorie-planning.jpg);
+}
+
+.button-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-left: 620px;
+}
+
+.capture-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 20%;
+    height: 60px;
+    background-color: rgba(230, 44, 73);
+    border-radius: 10px;
+  
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+  
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    position: relative;
+    z-index: 1;
+  }
